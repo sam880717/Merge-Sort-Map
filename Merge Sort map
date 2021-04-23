@@ -27,11 +27,11 @@ def merge(low,mid,high):
 			
 def mergesort(low,high):			#不斷分割，分割到2個數值互相比較，再做4個互相比較、8個互相比較，以此類推
 	if low<high:
-		map()
 		mid=int((low+high)/2)
 		mergesort(low,mid)
 		mergesort(mid+1,high)
 		merge(low,mid,high)
+		map()
 
 		
 
