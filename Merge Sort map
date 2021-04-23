@@ -39,7 +39,7 @@ def mergesort(low,high):			#不斷分割，分割到2個數值互相比較，再
 def map():
 	plt.ion()							#使matplotlib的顯示模式轉換為互動（interactive）模式
 	plt.clf()							#清除前面所畫的圖
-	plt.plot(range(1,1001),S)					#畫圖，X跟Y軸限制在~1000
+	plt.plot(range(1,1001),S)					#畫圖
 	plt.pause(0.00000000000000000000000000000000000001)		#暫時暫停，否則看不到圖
 	plt.ioff()							#最後動態跑完後仍然會留下圖
 	
