@@ -23,6 +23,7 @@ def merge(low,mid,high):
 			k+=1
 	for c in range(low,high+1):
 		S[c]=U[c]
+	map()
 		
 			
 def mergesort(low,high):			#不斷分割，分割到2個數值互相比較，再做4個互相比較、8個互相比較，以此類推
@@ -31,7 +32,7 @@ def mergesort(low,high):			#不斷分割，分割到2個數值互相比較，再
 		mergesort(low,mid)
 		mergesort(mid+1,high)
 		merge(low,mid,high)
-		map()
+
 
 		
 
