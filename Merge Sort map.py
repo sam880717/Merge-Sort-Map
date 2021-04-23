@@ -46,7 +46,7 @@ def map():
 	#plt.bar(range(1,1001),S,)					#畫長條圖
 	plt.pause(0.00000000000000000000000000000000000001)		#暫時暫停，否則看不到圖
 	#plt.ioff()							#最後動態跑完後仍然會留下圖
-	starttime = time.process_time()
+starttime = time.process_time()
 sys.setrecursionlimit(900000)		#用來設定遞迴最多能到幾層
 
 sum=0					#計算運算次數
